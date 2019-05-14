@@ -12,7 +12,7 @@
 <body>
 	<header>
 		<div class="logo">
-			<h2>My Logo</h2>
+			<h2>Welcome Jönköping</h2>
 		</div>
 		<div class="menu">
 			<?php wp_nav_menu('header-menu') ?>

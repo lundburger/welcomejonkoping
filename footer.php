@@ -1,3 +1,4 @@
+</div>
 <footer>
 	© Copyright - Carl-Johan Lundberg
 </footer>
