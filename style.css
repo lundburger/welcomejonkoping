@@ -47,7 +47,6 @@ footer {
 }
 /* Articles */
 .article {
-	display: block;
 	text-align: center;
 	margin-top: 130px;
 }
@@ -55,11 +54,11 @@ footer {
 	font-size: 2em;
 }
 .article p {
-	display: block;
+	margin-bottom: 50px;
 	margin-left: 100px;
 	margin-right: 100px;
-	margin-bottom: 50px;
 	font-size: 1.2em;
+	text-align: center;
 }
 .button {
 	padding: 20px 60px 20px 60px;
