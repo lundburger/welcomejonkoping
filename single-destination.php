@@ -10,7 +10,24 @@ if(have_posts()) {
 		the_title();
 	echo '</h2>';
 		the_content();
-	echo '</div>';
+		
+		echo "<div class= 'taxonomies'>";
+        echo "<h2 class= taxonomy-title>Price</h2>";
+        $terms = get_the_terms( get_the_ID(), 'price_range' );
+            foreach($terms as $term){
+            echo "<p>";
+              echo $term->name;
+            echo "</p>";
+            }
+        echo "<h2 class= taxonomy-title>Rating</h2>";
+        $terms = get_the_terms( get_the_ID(), 'rating' );
+            foreach($terms as $term){
+              echo "<p>";
+              echo $term->name;
+            echo "</p>";
+            }
+        echo "</div>";
+        }
+    echo "</div>";
 	}	
-}
 get_footer(); ?>
