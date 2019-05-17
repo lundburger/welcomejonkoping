@@ -296,6 +296,10 @@ function register_my_menus() {
 
 add_action( 'init', 'register_my_menus' );
 
+
+//Add excerpt
+add_post_type_support( 'page', 'excerpt' );
+
 ?>
 
 

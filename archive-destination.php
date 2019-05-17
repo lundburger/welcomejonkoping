@@ -9,7 +9,7 @@ if(have_posts()) {
 	echo '<h2 class= "article-title">';
 		the_title();
 	echo '</h2>';
-		the_content();
+		the_excerpt();
 ?>
 <a href="<?php the_permalink();?>" class="button">See more</a>
 <?php
