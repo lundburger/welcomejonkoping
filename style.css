@@ -96,7 +96,7 @@ footer {
 	text-shadow: 1px 1px 2px #000000;
 	position: absolute;
 	z-index: 1;
-	margin-left: 18vw;
+	margin-left: 27vw;
 	margin-top: 15vh;
 	font-size: 5vh;
 }
@@ -112,7 +112,7 @@ footer {
 }
 
 .wp-block-image, p {
-	margin-right: 25vw;
+	margin-right: 500px;
 	margin-left: 15vw;
 }
 .wp-block-image, .wp-image-27, p {
@@ -197,4 +197,3 @@ footer {
 	font-size: 1.5em;
 	margin: 0;
 }
-
