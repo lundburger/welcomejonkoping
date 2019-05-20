@@ -50,6 +50,10 @@ footer {
 	text-decoration: none;
 	color: #FFF;
 }
+
+.menu a:hover {
+	color: #97D2F7;
+}
 /* Articles */
 .article {
 	text-align: center;
@@ -79,7 +83,11 @@ footer {
 	background-color:  grey;
 }
 
-/* front page */
+/* latest */
+.latest-heading {
+	padding-top: 10%;
+}
+
 
 /* The hero image */
 .fpcontainer {
@@ -87,9 +95,10 @@ footer {
 }
 .wp-image-25 {
 	width: 100%;
-	height: 500px;
+	height: 57vh;
 	filter: brightness(70%);
 	position: relative;
+	padding-bottom: 8%;
 }
 
 .herotxt {
@@ -97,9 +106,14 @@ footer {
 	text-shadow: 1px 1px 2px #000000;
 	position: absolute;
 	z-index: 1;
-	margin-left: 18vw;
-	margin-top: 15vh;
+	margin-left: 27vw;
+	margin-top: 13vh;
 	font-size: 5vh;
+	transition: transform .4s;
+}
+
+.herotxt:hover {
+  transform: scale(1.5);
 }
 
 .wp-image-27 {
@@ -113,13 +127,11 @@ footer {
 }
 
 .wp-block-image, p {
-	margin-right: 25vw;
+	margin-right: 30vw;
 	margin-left: 15vw;
+	margin-top: 0px;
 }
-.wp-block-image, .wp-image-27, p {
-	padding-top: 30px;
 
-}
 
 @media only screen and (max-width: 800px) {
 		.wp-image-25 {
@@ -197,4 +209,3 @@ footer {
 	font-size: 1.5em;
 	margin: 0;
 }
-
