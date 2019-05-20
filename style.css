@@ -164,10 +164,9 @@ footer {
 .latest p {
 	font-size: 1.4em;
 	text-align: center;
-}
-.wp-block-image, p {
 	margin-right: 0;
 	margin-left: 0;
+	padding: 0;
 }
 .latest img {
 	display: block;
